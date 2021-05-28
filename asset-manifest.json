@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/crudflix/static/css/main.cd20c80a.chunk.css",
-    "main.js": "/crudflix/static/js/main.354f3377.chunk.js",
-    "main.js.map": "/crudflix/static/js/main.354f3377.chunk.js.map",
+    "main.js": "/crudflix/static/js/main.e0f7d674.chunk.js",
+    "main.js.map": "/crudflix/static/js/main.e0f7d674.chunk.js.map",
     "runtime-main.js": "/crudflix/static/js/runtime-main.9a06aac3.js",
     "runtime-main.js.map": "/crudflix/static/js/runtime-main.9a06aac3.js.map",
-    "static/js/2.2efe4769.chunk.js": "/crudflix/static/js/2.2efe4769.chunk.js",
-    "static/js/2.2efe4769.chunk.js.map": "/crudflix/static/js/2.2efe4769.chunk.js.map",
+    "static/js/2.2ed433b0.chunk.js": "/crudflix/static/js/2.2ed433b0.chunk.js",
+    "static/js/2.2ed433b0.chunk.js.map": "/crudflix/static/js/2.2ed433b0.chunk.js.map",
     "index.html": "/crudflix/index.html",
     "static/css/main.cd20c80a.chunk.css.map": "/crudflix/static/css/main.cd20c80a.chunk.css.map",
-    "static/js/2.2efe4769.chunk.js.LICENSE.txt": "/crudflix/static/js/2.2efe4769.chunk.js.LICENSE.txt"
+    "static/js/2.2ed433b0.chunk.js.LICENSE.txt": "/crudflix/static/js/2.2ed433b0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9a06aac3.js",
-    "static/js/2.2efe4769.chunk.js",
+    "static/js/2.2ed433b0.chunk.js",
     "static/css/main.cd20c80a.chunk.css",
-    "static/js/main.354f3377.chunk.js"
+    "static/js/main.e0f7d674.chunk.js"
   ]
 }
