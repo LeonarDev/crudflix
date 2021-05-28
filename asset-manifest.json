@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/crudflix/static/css/main.cd20c80a.chunk.css",
-    "main.js": "/crudflix/static/js/main.38f0e868.chunk.js",
-    "main.js.map": "/crudflix/static/js/main.38f0e868.chunk.js.map",
+    "main.js": "/crudflix/static/js/main.354f3377.chunk.js",
+    "main.js.map": "/crudflix/static/js/main.354f3377.chunk.js.map",
     "runtime-main.js": "/crudflix/static/js/runtime-main.9a06aac3.js",
     "runtime-main.js.map": "/crudflix/static/js/runtime-main.9a06aac3.js.map",
     "static/js/2.2efe4769.chunk.js": "/crudflix/static/js/2.2efe4769.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.9a06aac3.js",
     "static/js/2.2efe4769.chunk.js",
     "static/css/main.cd20c80a.chunk.css",
-    "static/js/main.38f0e868.chunk.js"
+    "static/js/main.354f3377.chunk.js"
   ]
 }
