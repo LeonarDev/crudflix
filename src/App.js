@@ -1,25 +1,48 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import MovieList from './pages/MovieList';
+import MovieDetails from './pages/MovieDetails';
+import NewMovie from './pages/NewMovie';
+import EditMovie from './pages/EditMovie';
+import NotFound from './pages/NotFound';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+class App extends React.Component {
+  mainHeader() {
+    return (
+      <header className="main-header">
+        <Link to="/crudflix/" style={{ textDecoration: 'none' }}>
+          <h1 className="main-title">CRUDflix</h1>
+        </Link>
       </header>
-    </div>
-  );
+    );
+  }
+
+  routes() {
+    return (
+      <Switch>
+        <Route exact path="/crudflix/" component={ MovieList } />
+        <Route path="/movies/new" component={ NewMovie } />
+        <Route
+          path="/movies/:id/edit"
+          render={ (props) => <EditMovie { ...props } /> }
+        />
+        <Route path="/movies/:id" render={ (props) => <MovieDetails { ...props } /> } />
+        <Route component={ NotFound } />
+      </Switch>
+    );
+  }
+
+  render() {
+    return (
+      <>
+        <BrowserRouter>
+          {this.mainHeader()}
+          {this.routes()}
+        </BrowserRouter>
+      </>
+    );
+  }
 }
 
 export default App;
